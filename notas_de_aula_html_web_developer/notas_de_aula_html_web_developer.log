@@ -1,0 +1,687 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.24)  1 JUL 2021 15:49
+entering extended mode
+**./notas_de_aula_html_web_developer.tex
+(notas_de_aula_html_web_developer.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen139
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks18
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks19
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count199
+\multirow@dima=\skip53
+\bigstrutjot=\dimen150
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count266
+\lst@gtempboxa=\box49
+\lst@token=\toks23
+\lst@length=\count267
+\lst@currlwidth=\dimen151
+\lst@column=\count268
+\lst@pos=\count269
+\lst@lostspace=\dimen152
+\lst@width=\dimen153
+\lst@newlines=\count270
+\lst@lineno=\count271
+\lst@maxwidth=\dimen154
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count272
+\lst@skipnumbers=\count273
+\lst@framebox=\box50
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Program Files\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+(C:\Program Files\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count274
+
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip54
+
+(C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count275
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Program Files\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip55
+\skiplinenumber=\skip56
+\skiprule=\skip57
+\skiphlne=\skip58
+\skiptext=\skip59
+\skiplength=\skip60
+\algomargin=\skip61
+\skipalgocfslide=\skip62
+\algowidth=\dimen155
+\inoutsize=\dimen156
+\inoutindent=\dimen157
+\interspacetitleruled=\dimen158
+\interspacealgoruled=\dimen159
+\interspacetitleboxruled=\dimen160
+\algocf@ruledwidth=\skip63
+\algocf@inoutbox=\box51
+\algocf@inputbox=\box52
+\AlCapSkip=\skip64
+\AlCapHSkip=\skip65
+\algoskipindent=\skip66
+\algocf@nlbox=\box53
+\algocf@hangingbox=\box54
+\algocf@untilbox=\box55
+\algocf@skipuntil=\skip67
+\algocf@capbox=\box56
+\algocf@lcaptionbox=\skip68
+\algoheightruledefault=\skip69
+\algoheightrule=\skip70
+\algotitleheightruledefault=\skip71
+\algotitleheightrule=\skip72
+\c@algocfline=\count276
+\c@algocfproc=\count277
+\c@algocf=\count278
+\algocf@algoframe=\box57
+\algocf@algobox=\box58
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count279
+\l__pdf_internal_box=\box59
+)
+(notas_de_aula_html_web_developer.aux)
+\openout1 = `notas_de_aula_html_web_developer.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen161
+\scratchbox=\box60
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen162
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks25
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\c@lstlisting=\count286
+ [1
+
+{C:/Users/souza/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+Overfull \hbox (28.75452pt too wide) in paragraph at lines 171--172
+[]\T1/cmr/m/n/12 Resolução: So-mar as no-tas e di-vidir pela quan-ti-dade de no
+-tas: (2+7+10+3)/4=
+ []
+
+[3] [4]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+54.
+ (C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (9.91771pt too wide) in paragraph at lines 260--261
+[]\T1/cmr/m/n/12 O down-load do pro-grama \T1/cmr/bx/n/12 Flow-gorithm \T1/cmr/
+m/n/12 pode ser feita no site ([]http://www.
+ []
+
+[5]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 268
+.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 268
+.
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (1.06413pt too wide) in paragraph at lines 316--317
+[]\T1/cmr/bx/n/12 Tomadas de de-cisão\T1/cmr/m/n/12 : Quando es-creve-mos pro-g
+ra-mas, geral-mente ocorre
+ []
+
+[6] [7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]\T1/cmr/m/n/12 del/rmdir
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/cmr/m/it/12 di-retório
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 420--420
+[]\T1/cmr/m/n/12 rm -rf (r-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+[]\T1/cmr/m/n/12 cls (\T1/cmr/m/it/12 clear
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+[]\T1/cmr/m/n/12 clear (ou
+ []
+
+
+Overfull \hbox (5.75783pt too wide) in paragraph at lines 445--445
+[]\T1/cmr/bx/n/14.4 Entendendo como o Git fun-ciona por baixo dos panos 
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]\T1/cmr/m/n/12 Comando
+ []
+
+[11]
+Overfull \hbox (0.88647pt too wide) in paragraph at lines 532--532
+[]\T1/cmr/m/n/12 Unmodified| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+[]\T1/cmr/m/n/12 Arquivos
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 534--534
+\T1/cmr/m/n/12 que o Git
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 534--534
+\T1/cmr/m/n/12 ainda não
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+[]\T1/cmr/m/n/12 Arquivo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+\T1/cmr/m/n/12 que ainda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+\T1/cmr/m/n/12 não foi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+[]\T1/cmr/m/n/12 Arquivo
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 534--534
+\T1/cmr/m/n/12 que sofreu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+\T1/cmr/m/n/12 mod-i-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+[]\T1/cmr/m/n/12 Arquivos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+\T1/cmr/m/n/12 que es-tão
+ []
+
+
+Overfull \hbox (1.54327pt too wide) in paragraph at lines 534--535
+\T1/cmr/m/n/12 aguardando
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 534--535
+\T1/cmr/m/n/12 para fazer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+\T1/cmr/m/n/12 parte de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+[]\T1/cmr/m/n/12 (git add)
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 538--538
+[]\T1/cmr/m/n/12 (Git com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+\T1/cmr/m/n/12 para o
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 538--538
+\T1/cmr/m/n/12 SHA1 dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+\T1/cmr/m/n/12 ar-quivos)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+\T1/cmr/m/n/12 Edita o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
+[]\T1/cmr/m/n/12 (git add)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
+\T1/cmr/m/n/12 "Stage" o
+ []
+
+[12] [13]
+Overfull \hbox (30.40004pt too wide) in paragraph at lines 580--581
+\T1/cmr/m/n/12 pare-ceida com o Ty-pora, por esse mo-tivo é con-ven-cional ter 
+ar-quivos README.md,
+ []
+
+[14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 653--653
+[]\T1/cmr/m/n/12 Comando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[]\T1/cmr/m/it/12 git con-fig
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+\T1/cmr/m/it/12 --global
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+\T1/cmr/m/it/12 --unset
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+[]\T1/cmr/m/it/12 git con-fig
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+\T1/cmr/m/it/12 --global
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+\T1/cmr/m/it/12 --unset
+ []
+
+
+Overfull \hbox (16.03139pt too wide) in paragraph at lines 663--663
+\T1/cmr/m/it/12 user.nickname| 
+ []
+
+
+Overfull \hbox (3.33217pt too wide) in paragraph at lines 670--670
+[]\T1/cmr/bx/n/17.28 Introdução a cri-ação de web-sites com HTML5
+ []
+
+[17]
+Overfull \hbox (66.99597pt too wide) in paragraph at lines 683--692
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 699.
+
+Underfull \hbox (badness 10000) in paragraph at lines 714--715
+
+ []
+
+[18]
+Overfull \hbox (1.6363pt too wide) in paragraph at lines 731--732
+[]\T1/cmr/m/n/12 E den-tro da tag body colo-camos todo o con-teúdo visível ao u
+suário:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+
+ []
+
+[21]
+Overfull \hbox (9.07605pt too wide) in paragraph at lines 793--794
+[]\T1/cmr/m/n/12 Vamos adi-cionar um texto fic-tí-cio a nossa postagem: logo ap
+ós o fechamento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
+
+ []
+
+
+Overfull \hbox (8.38884pt too wide) in paragraph at lines 817--818
+\T1/cmr/m/n/12 agora de-pois do <h3>, e no atrib-uto alt colo-care-mos Ed-i-tor
+ de texto mostrando
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--832
+
+ []
+
+
+Overfull \hbox (9.56914pt too wide) in paragraph at lines 843--844
+[]\T1/cmr/m/n/12 Representa uma seção genérica con-tida em um doc-u-mento HTML,
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 885--886
+
+ []
+
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 962--963
+
+ []
+
+[28]
+Overfull \hbox (21.72597pt too wide) in paragraph at lines 1009--1010
+[]\T1/cmr/m/n/12 E a úl-tima pro-priedade é o border-radius, ele per-mite arred
+ondar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
+
+ []
+
+[30]
+Overfull \hbox (0.58911pt too wide) in paragraph at lines 1073--1073
+[]\T1/cmr/bx/n/17.28 Construindo pági-nas para in-ter-net com Boot-
+ []
+
+[31]
+Overfull \hbox (6.77744pt too wide) in paragraph at lines 1081--1081
+[]\T1/cmr/bx/n/17.28 Recriando o jogo da co-brinha com JavaScript 
+ []
+
+[32] (notas_de_aula_html_web_developer.aux) ) 
+Here is how much of TeX's memory you used:
+ 5780 strings out of 479334
+ 78070 string characters out of 2866960
+ 715107 words of memory out of 3000000
+ 23159 multiletter control sequences out of 15000+200000
+ 421363 words of font info for 70 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,11n,74p,606b,1430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\souza\AppData\Local\MiK
+TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\souza\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\souza\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\souza
+\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users
+\souza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:
+\Users\souza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.p
+k> <C:\Users\souza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1000.pk> <C:\Users\souza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx0800.pk> <C:\Users\souza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1200.pk> <C:\Users\souza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1200.pk> <C:\Users\souza\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\souza\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\souza\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\souza\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\souza\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb>
+Output written on notas_de_aula_html_web_developer.pdf (32 pages, 282845 bytes)
+.
+PDF statistics:
+ 686 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
