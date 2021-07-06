@@ -918,7 +918,6 @@
 		\label{fig:o-que-sao-seletores}
 	\end{figure}
 	
-	
 	ID ou classe podem ser criadas para alterar propriedades de alguns elementos, mesmo que não sejam do mesmo tipo. Dessa forma, pode-se alterar especificamente um elemnto sem modificar os outros elementos do mesmo tipo dentro da página.
 	
 	\textbf{ID x Classe}: podem representar quaisquer tipos de elementos. No HTML, você declara o seu Id com \textit{id} e sua classe com \textit{class}. No CSS, uma classe é precedida por um ponto e um ID, por um \textit{hash}, como mostrado na Figura \ref{fig:id-x-classe}. Um Id só pode ser usado uma vez na página.
@@ -935,18 +934,29 @@
 
 	\textbf{Exercício}: Vamos adicionar algumas classes no nosso site e alterar alguns elementos.
 	
+	\textbf{Obs.:} Para visualizar no navegador o código que gerou a página, basta apertar \textbf{F12}.
+	
 	\subsubsection{Conceitos básicos}
 	
-	\textbf{Box model}, mostrado na Figura \ref{fig:box-model}.
+	O navegador representa cada elemento HTML como uma caixa retangular, chamada \textbf{\textit{Box model}}, mostrada na Figura \ref{fig:box-model}. Com o CSS, é possível alterar a aparência dessa caixa. O \textit{Box model} tem quatro áreas:
+	
+	\begin{description}
+		\item[\textit{margin} (margem)] São os espaçamentos entre os elementos.
+		\item[\textit{border} (borda)] Circundam o \textit{padding} e o \textit{content}. Pode-se alterar sua largura e cor.
+		\item[\textit{padding} (preenchimento)] É o espaçamento entre a \textit{border} e o \textit{content}. 
+		\item[\textit{content} (conteúdo)] É o que seu elemento representa, como um texto, uma imagem ou um vídeo.
+	\end{description}
 	
 	\begin{figure}[tbph!]
 		\centering
 		\includegraphics[width=0.3\linewidth]{images/box-model}
-		\caption{Box-model.}
+		\caption{\textit{Box-model}.}
 		\label{fig:box-model}
 	\end{figure}
+
+	\textbf{Exercício}: Para enxergarmos o \textit{box model}, vamos adicionar cores e bordas a alguns elementos.
 	
-	\subsubsection{Material de apoio - CSS3}
+	\subsubsection{Material de apoio - CSS3} \label{sec:material-de-apoio-css}
 	
 	\paragraph{Definição e seletores} \mbox{} \\
 	
@@ -1046,7 +1056,7 @@
 		
 		Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para representar o lado diferente.
 		
-		\item[Background] A propriedade background também é um atalho para várias propriedades, mas isso vocês podem absorver aos poucos, e uma boa opção de leitura é a documentação do MDN.
+		\item[Background] A propriedade background também é um atalho para várias propriedades, mas isso vocês podem absorver aos poucos, e uma boa opção de leitura é a documentação do MDN Web Docs\footnote{https://developer.mozilla.org/pt-BR/} (\textit{Mozilla Developer Network Web Docs}).
 		
 		Por enquanto veremos apenas como mudar a cor de fundo.
 		
@@ -1054,27 +1064,27 @@
 		
 		A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho background.
 		
-		\item[Border] Vimos que a propriedade border pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
+		\item[Border] Vimos que a propriedade border pode ter 3 valores: a largura (pixels, centímetros, milímetros, ...), a cor (blue, \#0000ff, ...) e o estilo (sólida, pontilhada, tracejada), mas existem algumas particularidades nisso.
 		
 		A largura pode ser usada com várias unidades, como px, em e mm. A cor pode ser atribuída pelo nome ou por um código hexadecimal, assim como fizemos com o background, e o estilo é representada por palavras-chave, vamos ver algumas delas:
 		
 		\begin{description}
-			\item[solid] mostra uma borda simples e reta;
-			\item[dotted] são bolinhas com um pequeno espaçamento entre elas;
-			\item[dashed] forma uma linha tracejada.
+			\item[solid] Mostra uma borda simples e reta;
+			\item[dotted] São bolinhas com um pequeno espaçamento entre elas;
+			\item[dashed] Forma uma linha tracejada.
 		\end{description}
 		
 		E aproveitando que mostrei esse código temos que falar sobre como separar a estilização dos lados de uma borda.
 		
-		E se você não quiser usar a propriedade border existem as propriedade específicas para cada aspecto de uma borda, são elas border-width para a largura, border-color para a cor e border-style para o estilo.
+		E se você não quiser usar a propriedade \textit{border} existem as propriedade específicas para cada aspecto de uma borda, são elas \textit{border-width} para a largura, \textit{border-color} para a cor e b\textit{order-style} para o estilo.
 		
 		Aqui temos o mesmo código anterior de duas formas diferentes, a primeira com o atalho border e a segunda com cada propriedade específica.
 		
 		E depois disso podemos juntar os lados com os aspectos de uma borda e criar uma regra mais específica ainda.
 		
-		\item[Border-radius] E a última propriedade é o border-radius, ele permite arredondar os cantos de um elemento. Podemos usar várias unidades, mas as mais comuns são os pixels e a porcentagem.
+		\textit{Border-radius} permite arredondar os cantos de um elemento. Podemos usar várias unidades, mas as mais comuns são os pixels e a porcentagem.
 		
-		Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no padding e margin - topo, direita, inferior e esquerda -  conseguimos alterar cada canto separadamente.
+		Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no \textit{padding} e \textit{margin} - topo, direita, inferior e esquerda - conseguimos alterar cada canto separadamente.
 	\end{description}
 	
 	\paragraph{Exercício} \mbox{} \\
@@ -1089,36 +1099,92 @@
 	
 	Podemos manter o background branco, mas vamos diminuir a largura das bordas para 2 pixels e mudar a cor para a mesma do texto - \#505050 - e por último adicionaremos um border-radius, 5 pixels são suficientes. Podemos adicionar esse mesmo de valor de border-radius na imagem, para isso vamos acrescentar uma class a imagem antes.
 	
-	
-	
 	\paragraph{Estilizando textos} \mbox{} \\
 	
 	Já sabemos que podemos mudar cor e tamanho de algumas fontes, e agora vamos nos aprofundar nisso.
 	
-	
 	\begin{description}
-		\item[font-family] Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de web safe fonts.
+		\item[\textit{font-family}] Com o \textit{font-family} podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de \textit{web safe fonts}.
 		
-		Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
+		Essas fontes são chamadas assim pois são encontradas em quase todos os sistemas e podem ser usadas sem preocupação.
 		
-		\item[font-size] O font-size nos ajuda a mudar o tamanho do texto, existem algumas unidades de medida para ele mas por enquanto os pixels são suficientes para nós.
+		Ao adicionar duas fontes, a segunda serve como um \textit{backup} para o caso da primeira não funcionar.
 		
-		\item[font-style] Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
+		\item[\textit{font-size}] O \textit{font-size} nos ajuda a mudar o tamanho do texto, existem algumas unidades de medida para ele mas por enquanto os \textit{pixels} são suficientes para nós.
+		
+		\item[\textit{font-style}] Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor \textit{italic} para ele, mas se precisar tirar o itálico de um texto você pode usar o valor \textit{normal}. Tem fontes que não suportam o valor \textit{italic}.
+		
+		\item[\textit{font-weight}] Altera o peso do texto. Para as fontes mais simples, é usual usar \textit{normal} ou \textit{bold} (negrito).
+		
+		\item[\textit{text-transform}] Transforma o texto entre maiúsculas e minúsculas. O valor \textit{uppercase} coloca todo o texto em caixa alta. O valor \textit{lowercase} coloca todo o texto em caixa baixa. E o \textit{capitalize} coloca todas as primeiras letras de cada palavra em maiúscula.
+		
+		\item[\textit{text-decoration}] Usado para dar destaque em um texto através de linhas. O valor \textit{underline} coloca uma linha abaixo da palavra, o valor \textit{overline} coloca uma linha acima e o valor \textit{line-through} coloca a linha cortando a palavra.
 	\end{description}
+	
+	\paragraph{Exercício} \mbox{}\\
+	
+	Vamos fazer algumas mudanças nos nossos textos.
 	
 	\subsection{Estilizando elementos, textos e listas}
 	\subsubsection{Estilizando elementos}
+	
+	\textbf{\textit{Padding}} e \textbf{\textit{margin}}: Tem como colocar espaçamento diferente para cada lado. Na Figura \ref{fig:espacamento01}, o primeiro valor se refere ao espaçamento dos lados superior e inferior, e o segundo valor, aos lados direito e esquerdo. Na Figura \ref{fig:espacamento02}, cada valor representa um lado, na seguinte ordem: parte superior, direita, parte inferior e esquerda. Quando se tem um valor zero, não é preciso usar uma unidade. Na Figura \ref{fig:espacamento03}, tem-se outra alternativa mais usada quando se quer alterar apenas um lado específico.
+	
+	\begin{figure}[tbph!]
+		\centering
+		\includegraphics[width=0.3\linewidth]{images/espacamento01}
+		\caption{Diferentes espaçamentos para \textit{padding} e \textit{margim}.}
+		\label{fig:espacamento01}
+	\end{figure}
+
+	\begin{figure}[tbph!]
+		\centering
+		\includegraphics[width=0.3\linewidth]{images/espacamento02}
+		\caption{Outra alternativa para diferentes espaçamentos para \textit{padding} e \textit{margim}.}
+		\label{fig:espacamento02}
+	\end{figure}
+
+	\begin{figure}[tbph!]
+		\centering
+		\includegraphics[width=0.3\linewidth]{images/espacamento03}
+		\caption{Terceira alternativa para diferentes espaçamentos para \textit{padding} e \textit{margim}.}
+		\label{fig:espacamento03}
+	\end{figure}
+	
+	\textbf{Background}:Ttemos 3 formas de colocar uma cor de fundo, e ainda existem outras. A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho background.
+	
+	\colorbox{red}{Ver material de apoio para essa seção e a seguinte - CSS (Seção \ref{sec:material-de-apoio-css})}
 	
 	\subsubsection{Estilizando textos}
 	
 	\subsubsection{Estilizando listas}
 	
+	\begin{description}
+		\item[\textit{list-style-type}] Usado para alterar o marcador de uma lista tanto para uma lista ordenada como para não ordenada.
+		
+		\item[\textit{list-style-image}] Pode-se usar imagem como marcadores para as listas. Exemplo: \textit{list-style-image: url("rocket.png")} 
+	\end{description}
+
+	\textbf{Exercício}: Vamos melhorar a aparência da nossa lista.
 	
+	\textbf{Obs.:} O CSS funciona como uma cascata. Então pode-se modificar um elemento que esteja dentro do elemento ao qual minha classe ou ID se refere.
 	
 	\subsection{Dimensão e alinhamento}
 	\subsubsection{Propriedades de dimensões e alinhamento}
 	
+	Propriedades:
 	
+	\begin{description}
+		\item[\textit{Width} e \textit{Height}] Servem para ajustar a largura e a altura de um elemento.
+		
+		\item[\textit{Max-width} e \textit{Max-height}] Se referem a largura máxima e altura máxima de um elemento.
+		
+		\item[\textit{Margin}] Coloca espaçamento entre elementos. Tem o valor \textit{auto} que serve para alinhar algum elemento automaticamente.
+		
+		\item[\textit{Text align}] Serve para alinhar texto.
+	\end{description}
+
+	\textbf{Exercício}: Agora vamos delimitar as dimensões dos nossos elementos e alinhar nosso conteúdo.
 	
 	\section{Recriando a página inicial do Instagram}
 	
@@ -1148,6 +1214,28 @@
 	
 	\subsection{Introdução ao JavaScript}
 	\subsubsection{Introdução ao JavaScript}
+	
+	\textbf{JavaScript (JS)}
+	
+	\begin{itemize}
+		\item Linguagem de script (execução em tempo real) e multiplataforma;
+		\item Client side - é executado do lado do cliente (usuário) - Obs.: quando abre uma página, o navegador executa o JavaScript na sua máquina;
+		\item Tem capacidade de interagir com elementos de uma página HTML;
+		\item Muito usado no desenvolvimento de páginas e também aplicativos mobile híbridos.
+	\end{itemize}
+
+	\textbf{DOM (Document Object Model)} é o documento que o navegador gera quando carrega a sua página, além disso é um modelo de árvore. Por causa disso:
+	
+	\begin{itemize}
+		\item JavaScript pode alterar todos os elementos do HTML;
+		\item JavaScript pode alterar todos os atributos e estilos de CSS de uma página.
+	\end{itemize}
+
+	Há duas formas do JavaScript interagir no HTML, uma delas é escrevendo o código em JavaScript no \textit{script} dentro do \textit{body}. Ou, usando \textit{script} para referenciar o arquivo do código em JS.
+	
+	O JS é uma linguagem de tipagem dinâmica. Não precisa dizer o tipo de variável ao declarar, ele identifica o tipo quando é atribuído valor a variável.
+	
+	Para saber o que está acontecendo no seu programa que está desenvolvendo, usa-se no navegador \textbf{F12} ou botão direito do mouse $\rightarrow$ Inspecionar (Ctrl+Shift+i). Depois vai em \textit{Console}, onde mostra o resultado do \textit{console.log}.
 	
 	\subsubsection{Array e dicionário}
 	
@@ -1200,6 +1288,15 @@
 	\subsection{Introdução ao Bootstrap}
 	\subsubsection{Aprenda sobre o framework Bootstrap}
 	
+	\textbf{Bootstrap}: 
+	
+	\begin{itemize}
+		\item Se trata de um framework para desenvolvimento de sites responsivos (são sites que você consegue usar no seu notebook, tablet, smartphone, ..., sem perder a forma);
+		\item Possui uma vasta biblioteca de componentes que facilita e agiliza o desenvolvimento de páginas web;
+		\item É um dos frameworks mais conhecidos e usados para o desenvolvimento front-end;
+	\end{itemize}
+
+	Download Bootstrap: \textcolor{blue}{https://getbootstrap.com/} 
 	
 	\subsection{Aprenda a utilizar o Bootstrap na sua página WEB}
 	\subsubsection{Aprenda a utilizar o Bootstrap na sua página WEB}

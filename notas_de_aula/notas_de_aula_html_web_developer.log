@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.24)  4 JUL 2021 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.24)  5 JUL 2021 23:22
 entering extended mode
 **./notas_de_aula_html_web_developer.tex
 (notas_de_aula_html_web_developer.tex
@@ -623,83 +623,99 @@ Package pdftex.def Info: images/o-que-sao-seletores.jpg  used on input line 916
 <images/id-classe.jpg, id=103, 178.6675pt x 201.75375pt>
 File: images/id-classe.jpg Graphic file (type jpg)
 <use images/id-classe.jpg>
-Package pdftex.def Info: images/id-classe.jpg  used on input line 931.
+Package pdftex.def Info: images/id-classe.jpg  used on input line 930.
 (pdftex.def)             Requested size: 117.00119pt x 132.12042pt.
 <images/box-model.jpg, id=104, 330.23375pt x 276.03125pt>
 File: images/box-model.jpg Graphic file (type jpg)
 <use images/box-model.jpg>
-Package pdftex.def Info: images/box-model.jpg  used on input line 944.
+Package pdftex.def Info: images/box-model.jpg  used on input line 952.
 (pdftex.def)             Requested size: 117.00119pt x 97.79591pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 951--952
-
- []
-
-[27 <./images/id-classe.jpg> <./images/box-model.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 967--968
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 983--984
+ [27 <./images/id-classe.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 995--996
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
+
+ []
+
+[28 <./images/box-model.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 993--994
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1021
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
 
 [30] [31]
-Overfull \hbox (21.72597pt too wide) in paragraph at lines 1075--1076
-[]\T1/cmr/m/n/12 E a úl-tima pro-priedade é o border-radius, ele per-mite arred
-ondar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
  []
 
-[32] [33] [34] [35]
-Overfull \hbox (0.58911pt too wide) in paragraph at lines 1196--1196
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+
+ []
+
+[33]
+<images/espacamento01.jpg, id=127, 166.6225pt x 65.24374pt>
+File: images/espacamento01.jpg Graphic file (type jpg)
+<use images/espacamento01.jpg>
+Package pdftex.def Info: images/espacamento01.jpg  used on input line 1135.
+(pdftex.def)             Requested size: 117.00119pt x 45.81465pt.
+<images/espacamento02.jpg, id=128, 203.76125pt x 64.24pt>
+File: images/espacamento02.jpg Graphic file (type jpg)
+<use images/espacamento02.jpg>
+Package pdftex.def Info: images/espacamento02.jpg  used on input line 1142.
+(pdftex.def)             Requested size: 117.00119pt x 36.88673pt.
+<images/espacamento03.jpg, id=129, 169.63374pt x 125.46875pt>
+File: images/espacamento03.jpg Graphic file (type jpg)
+<use images/espacamento03.jpg>
+Package pdftex.def Info: images/espacamento03.jpg  used on input line 1149.
+(pdftex.def)             Requested size: 117.00119pt x 86.53905pt.
+ [34 <./images/espacamento01.jpg> <./images/espacamento02.jpg> <./images/espaca
+mento03.jpg>] [35] [36] [37]
+Overfull \hbox (0.58911pt too wide) in paragraph at lines 1284--1284
 []\T1/cmr/bx/n/17.28 Construindo pági-nas para in-ter-net com Boot-
  []
 
-
-Overfull \hbox (34.47826pt too wide) in paragraph at lines 1224--1224
+[38]
+Overfull \hbox (34.47826pt too wide) in paragraph at lines 1321--1321
 []\T1/cmr/bx/n/17.28 Fundamentos Ar-it-méti-cos em JavaScript (Teste) 
  []
 
-[36]
-Overfull \hbox (6.77744pt too wide) in paragraph at lines 1228--1228
+
+Overfull \hbox (6.77744pt too wide) in paragraph at lines 1325--1325
 []\T1/cmr/bx/n/17.28 Recriando o jogo da co-brinha com JavaScript 
  []
 
-[37] [38] (notas_de_aula_html_web_developer.aux) ) 
+[39] [40] (notas_de_aula_html_web_developer.aux) ) 
 Here is how much of TeX's memory you used:
- 5813 strings out of 479334
- 78720 string characters out of 2866960
+ 5844 strings out of 479334
+ 79476 string characters out of 2866960
  715107 words of memory out of 3000000
- 23186 multiletter control sequences out of 15000+200000
+ 23214 multiletter control sequences out of 15000+200000
  421363 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,606b,1430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,11n,74p,659b,1430s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\souza\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\souza\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\souza\
@@ -720,10 +736,10 @@ X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\souza\AppData\Local
 MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on notas_de_aula_html_web_developer.pdf (38 pages, 340415 bytes)
+Output written on notas_de_aula_html_web_developer.pdf (40 pages, 367404 bytes)
 .
 PDF statistics:
- 742 PDF objects out of 1000 (max. 8388607)
+ 771 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

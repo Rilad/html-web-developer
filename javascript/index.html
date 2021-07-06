@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script> <!-- Segunda alternativa de interação JS e HTML. -->
+    </head>
+    <body onload="load()">
+        <!-- Segunda alternativa de interação JS e HTML.
+        <script>
+            // Tudo que estiver dentro do script pertence ao JavaScript
+            alert("Meu primeiro JS"); //gera um popup na sua página
+        </script> -->
+        <!--<h1>Minha página</h1>-->
+        <button type="button" onclick="clicou()">Clique aqui</button> <!--Chama a função clicou, caso o usuário clique no botão gerado-->
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <!--Se usar o this, não precisa do id (pode retirar) e, consequentemente não usa o getElementById, pois o this já referencia ao elemento-->
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </body>
+</html>

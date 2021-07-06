@@ -1,0 +1,61 @@
+body {
+    background: #f7f7f7;  /*Define a cor de fundo da página*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Define a fonte da página*/
+    max-width: 900px; /*Define a largura máxima da página de forma que se tiver uma tela menor ela se adequará*/
+    margin: auto; /*Cria um espaçamento de ambos os lados*/
+}
+
+.photo {
+    border: 3px solid #505050;
+    border-radius: 50%; /*Transforma a borda em um círculo*/
+}
+
+#title, .subtitle, .post_title {
+    color: #505050; /*Define a cor para os elementos classificados com esse ID e essas classes no código HTML*/
+}
+
+#title {
+    font-size: 40px; /*Define a fonte do título*/
+    text-transform: uppercase; /*Coloca o título em caixa alta*/
+}
+
+a {
+    text-decoration: underline; /*sublinha os links da página (Obs.: esse é um exemplo de um seletor)*/
+    color: #505050;
+}
+
+.post_title {
+    font-size: 16px; /*Define o tamanho da fonte para os elementos classificados com esta classe no código HTML*/
+    font-style: italic; /*Define o estilo da fonte para os elementos classificados com esta classe no código HTML*/
+    margin: 0; /*Zera as margens dos elementos referentes a essa classe*/
+    margin-bottom: 15px; /*Define a margem da parte inferior para os elementos referentes a essa classe*/
+}
+
+.post {
+    background: #FFF; /*Define a cor de fundo para os elementos classificados com esta classe no código HTML.*/
+    margin-bottom: 15px; /*Define a largura da margem inferior*/
+    border: 3px solid #505050; /*Define a largura, o estilo e a cor da borda*/
+    padding: 15px; /*Define o espaçamento entre o conteúdo e a borda*/
+}
+
+.post_content {
+    margin: 0; /*Zera as margens dos elementos referentes a essa classe*/
+    margin-bottom: 15px; /*Define a margem da parte inferior para os elementos referentes a essa classe*/
+    border-radius: 5px; /*Arredonda os vértices*/
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image {
+    margin-bottom: 15px; /*Define a margem da parte inferior para os elementos referentes a essa classe*/
+    width: 100%; /*Fica o maior possível respeitando o elemento que a engobla*/
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 1px;
+}
+
+.contacts_list li a {
+    text-decoration: none; 
+}
