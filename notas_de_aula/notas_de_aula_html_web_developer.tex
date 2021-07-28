@@ -1270,6 +1270,117 @@
 	
 	Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 	
+	\paragraph{Instruções} \mbox{}\\
+	Todas as entradas e saída dos algoritmos são utilizados o STDIN e STDOUT de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+	JavaScript
+	
+	Em JavaScript as funções de STDIN e STDOUT respectivamente sãogets e console.log, a função gets é implementada internamente para auxiliar a entrada dos dados.
+	
+	Exemplo:
+	let line = gets(); // Retorna a próxima linha de entrada
+	console.log(line); // Imprime o dado
+	
+	Java
+	
+	Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar BufferedReader para o STDIN e o System.out.println para o STDOUT.
+	
+	Exemplo:
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entrada
+	int a = Integer.parseInt(st.nextToken());
+	System.out.println(a); // Imprime o dado
+	
+	Python
+	
+	Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar sys.stdin.readline para o STDIN e o print para o STDOUT.
+	
+	Exemplo:
+	import sys
+	a = int(sys.stdin.readline()) // Lê a linha de entrada
+	print(a); // Imprime o dado
+	
+	\subsection{Teste 1 - Visita na feira}
+	Desafio
+	Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
+	
+	Entrada
+	A entrada contém 2 valores inteiros, separados por um espaço.
+	
+	Saída
+	Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Assegure que exista um espaço antes e depois do sinal de igualdade.
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada & Exemplos de Saída \\
+			\hline
+			11 7 & X = 18\\
+			\hline
+			-11 6 & X = -5\\
+			\hline
+			11 2 & X = 9\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidasTeste1}
+	\end{table}
+	
+	\subsection{Teste 2 - Multiplicação Simples}
+	Desafio
+	Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável PROD, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo).   
+	
+	Entrada
+	A entrada contém 2 valores inteiros.
+	
+	Saída
+	Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade.
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada\footnote{os valores são dispostos em colunas mas por motivos práticos, estão apresentados aqui em linha} & Exemplos de Saída \\
+			\hline
+			3 9 & PROD = 27\\
+			\hline
+			-30 10 & PROD = -300\\
+			\hline
+			0 9 & PROD = 0\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidasTeste2}
+	\end{table}
+
+	\subsection{Teste 3 - Folha de Pagamento}
+	
+	Desafio
+	Precisamos saber quanto uma determinada empresa deve pagar para seus colaboradores, porém temos apenas a quantidade de horas trabalhadas e o valor hora. Escreva um programa que leia o número de um colaborador, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse colaborador. Em seguida, apresente o número e o salário do colaborador, com duas casas decimais.
+	
+	Entrada
+	Você receverá 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada.
+	
+	Saída
+	Exiba o número e o salário do colaborador, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o \$.
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada\footnote{os valores são dispostos em colunas mas por motivos práticos, estão apresentados aqui em linha} & Exemplos de Saída \\
+			\hline
+			25 100 5.50 & NUMBER = 25 SALARY = U\$550.00\\
+			\hline
+			1 200 20.50 & NUMBER = 25 SALARY = U\$4100.00\\
+			\hline
+			6 145 15.55 & NUMBER = 1 SALARY = U\$2254.75\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidasTeste3}
+	\end{table}
+
 	\section{Recriando a Interface do Netflix}
 	
 	Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar o layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
@@ -1294,17 +1405,122 @@
 	
 	\subsubsection{Parte 3}
 	
+	Fontes externas: \textcolor{blue}{https://fonts.google.com/}
+	
 	\subsubsection{Parte 4}
+	
+	Informações sobre filmes e séries: \textit{https://www.themoviedb.org/?language=pt-BR}
+	
+	No CSS,  um elemento herda todas as formatações do elemento pai, ou seja, se o elemento pai possui formatações características o elementos filhos diretos também possuirão essas formatações e isso acontece sucessivamente. Contudo, uma \textit{div} que não é uma filha direta, vem por padão com o \textit{display block}. 
+	
+	É recomendado evitar acentuação.
+	
+	A propriedade \textit{role} é usada para informar qual a função de um determinado elemento, como o botão, para que independente de onde seja renderizado, o elemento seja entendido pela sua função.
+	
+	O \textit{justify-content} organiza os elementos no eixo (linha ou coluna) definido no \textit{flex-direction}. Já o \textit{align-items} ordena os elementos no outro eixo.
 	
 	\subsubsection{Parte 5}
 	
+	Site que permite criar ícones dentro do HTML: \textcolor{blue}{https://fontawesome.com/}
+	
+	Etapas para o uso do Font Awesome:
+	\begin{description}
+		\item[Add Your Kit's Code to a Project]
+		Copy your kit's code into the <head> of each template or page in your project where you want to use Font Awesome via this kit. If you've got other versions or flavors of Font Awesome already in use, make sure to remove them.
+		
+		<script src="https://kit.fontawesome.com/624e19b702.js" crossorigin="anonymous"></script>
+		
+		\begin{lstlisting}
+			<!doctype html>
+			<html>
+			<head>
+			<!-- Place your kit's code here -->
+			<script src="https://kit.fontawesome.com/624e19b702.js" crossorigin="anonymous"></script>
+			</head>
+			
+			<body>
+			<!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+			<i class="fas fa-thumbs-up fa-5x"></i>
+			</body>
+			</html>
+		\end{lstlisting}
+	
+	\item[Add Any of Our Free Icons to a Project]
+	Your kit gives you access to 1,609 pixel-perfect icons. Add any of them with one line of code.
+	
+	\item[Add Some Style]
+	The support styling bundled in with Font Awesome makes it easy to size, align, color, rotate, and stack icons.
+		
+	\end{description}
+	
+	É recomendado usar o posicionamento fluido, que é feito através do uso de porcentagens.
+	
+	No CSS, não faz diferença colocar a classe do elemento pai, mas ajuda na visualização por parte do desenvolvedor.
+	
 	\subsubsection{Parte 6}
+	
+	\textit{Wrap} vem do inglês "embrulhar". Uma \textit{wrapper class} é uma classe que "embrulha", envolve, outros objetos afim de adicionar algum atributo ao conjunto ou melhor organizar seu código.
+	
+	É como se você fosse dar de presente várias lembrancinhas para uma pessoa só, e optou por embrulhá-las todas juntas.
+	
+	Wrappers podem ser usadas em situações como no exemplo acima, onde eu quero dar alguma qualidade, como por exemplo centralizar ou dar algum \textit{padding}, a um grupo de elementos HTML ou divs.
+	
+	Com wrapper você também pode blocar conteúdo, separar \textit{header} e \textit{footer} do resto do site, posicionar de maneira diferente um grupo de classes, pra facilitar na hora de especificar uma classe no seu CSS ou Javascript, etc.
+	
+	Muitas pessoas usam outras terminologias, como \textit{\textbf{container}}, \textit{main}, \textit{content}. Depende muito de como você prefere organizar o seu código, o que você pretende fazer com ele ou qual o seu tipo de conteúdo.
+	
+	Há diferenças entre \textit{wrapper} e \textit{container}, mas a princípio pode-se considerar como conceitos similares.
+	
+	Obs.: Mesmo que vá ter apenas um container dentro de uma div, ainda vale a pena, criá-lo, para poder posicionar o conteúdo dentro dessa div. 
 	
 	\subsubsection{Parte 7}
 	
+	O \textit{carousel} (carrossel) é um slideshow para fazer um giro em vários conteúdos, construído com CSS 3D transforms e um pouco de JavaScript. Ele funciona com o uso de imagens, texto ou marcação personalizada. Também possui suporte para controles anterior, próximo e indicadores.
+	
+	jQuery é uma biblioteca JavaScript rápida, pequena e rica em recursos. Ele torna as coisas como a passagem e manipulação de documentos HTML, manipulação de eventos, animação e Ajax muito mais simples com uma API fácil de usar que funciona em vários navegadores. Com uma combinação de versatilidade e extensibilidade, o jQuery mudou a maneira como milhões de pessoas escrevem JavaScript.
+	
+	Link para download J-Query: \textcolor{blue}{https://owlcarousel2.github.io/OwlCarousel2/}
+	
+	Obs.: Algumas funcionalidades do JQuery, o Javacript já possui.
+	
+	Endereços dos arquivos JQuery de interesse:
+	\begin{itemize}
+		\item 	OwlCarousel2-2.3.4 $\rightarrow$ docs $\rightarrow$ assets:
+		
+		vendors (jquery.min)
+		
+		owlcarousel (owl.carousel.min)
+		
+		\item OwlCarousel2-2.3.4 $\rightarrow$ dist $\rightarrow$ assets:
+		
+		owl.carousel.min
+		
+		owl.theme.default.min
+	\end{itemize}
+	
+	A página sempre carrega em ordem sequencial, se tentar exeutar algum JS antes da página ter carregado, pode acontecer algum erro, então é recomendado o JS ser a última coisa a ser carregada na página (posiciona-se no final do \textit{body})
+	
+	Para duplicar a linha atual na linha de baixo: shift + Alt + $\downarrow$.
+	
+	Para encontrar exemplos de carousel e como construí-los, vá no site do Owl Carousel 2, Demos.
+	
+	O cifrão \$ se refere ao JQuery.
+	
+	O setup é uma parte do código que deve ser incluído em seu arquivo JS (setup.js).
+	
 	\subsubsection{Parte 8}
 	
+	\textbf{Responsividade} é quando os elementos se adaptam ao tamanho da tela.
+	
+	Para simular a tela de outros dispositivos: Inspecionar $\rightarrow$ Toggle device toolbar $\rightarrow$ Responsive
+	
 	\subsubsection{Parte 9}
+	
+	Desafios extras:
+	\begin{itemize}
+		\item Dar vida aos botões;
+		\item Fazer uma nova roupagem.
+	\end{itemize}
 	
 	\subsection{Informações}
 	
@@ -1368,6 +1584,159 @@
 	
 	Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
 	
+	\subsection{1 - Quantidade de números positivos}
+	
+	Desafio
+	Crie um programa que leia 6 valores. Você poderá receber valores negativos e/ou positivos como entrada, devendo desconsiderar os valores nulos. Em seguida, apresente a quantidade de valores positivos digitados.
+	
+	Entrada
+	Você receberá seis valores, negativos e/ou positivos.
+	
+	Saída
+	Exiba uma mensagem dizendo quantos valores positivos foram lidos assim como é exibido abaixo no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final.
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada & Exemplos de Saída \\
+			\hline
+			7 -5 6 -3.4 4.6 12 & 4 valores positivos\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidas1}
+	\end{table}
+	
+	\subsection{2 - Exibindo números pares}
+
+	Desafios
+	Crie um programa que leia um número e mostre os números pares até esse número, inclusive ele mesmo.
+	
+	Entrada
+	Você receberá 1 valor inteiro N, onde N > 0.
+	
+	Saída
+	Exiba todos os números pares até o valor de entrada, sendo um em cada linha. 
+	
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada & Exemplos de Saída \\
+			\hline
+			6 &2 4 6\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidas2}
+	\end{table}
+	
+	\subsection{3 - Análise de números}
+	
+	Desafio
+	Você deve fazer a leitura de 5 valores inteiros. Em seguida mostre quantos valores informados são pares, quantos valores informados são ímpares, quantos valores informados são positivos e quantos valores informados são negativos.
+	
+	Entrada
+	Você receberá 5 valores inteiros.
+	
+	Saída
+	Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por linha e não esquecendo o final de linha após cada uma.
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada & Exemplos de Saída \\
+			\hline
+			-5 0 -3 -4 12 & 3 valor(es) par(es) 2 valor(es) impar(es) 1 valor(es) positivo(s) 3 valor(es) negativo(s)\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidas3}
+	\end{table}
+	
+	\subsection{4 - Contagem de cédulas}
+	
+	Desafio
+	Faça a leitura de um valor inteiro. Em seguida, calcule o menor número de notas possíveis (cédulas) onde o valor pode ser decomposto. As notas que você deve considerar são de 100, 50, 20, 10, 5, 2 e 1. Na sequência mostre o valor lido e a relação de notas necessárias.
+	
+	Entrada
+	Você receberá um valor inteiro N (0 < N < 1000000).
+	
+	Saída
+	Exiba o valor lido e a quantidade mínima de notas de cada tipo necessárias, seguindo o exemplo de saída abaixo. Após cada linha deve ser imprimido o fim de linha.
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada & Exemplos de Saída \\
+			\hline
+			576 & 576
+			5 nota(s) de R\$ 100,00
+			1 nota(s) de R\$ 50,00
+			1 nota(s) de R\$ 20,00
+			0 nota(s) de R\$ 10,00
+			1 nota(s) de R\$ 5,00
+			0 nota(s) de R\$ 2,00
+			1 nota(s) de R\$ 1,00\\
+			\hline
+			11257 & 11257
+			112 nota(s) de R\$ 100,00
+			1 nota(s) de R\$ 50,00
+			0 nota(s) de R\$ 20,00
+			0 nota(s) de R\$ 10,00
+			1 nota(s) de R\$ 5,00
+			1 nota(s) de R\$ 2,00
+			0 nota(s) de R\$ 1,00\\
+			\hline
+			503 & 503
+			5 nota(s) de R\$ 100,00
+			0 nota(s) de R\$ 50,00
+			0 nota(s) de R\$ 20,00
+			0 nota(s) de R\$ 10,00
+			0 nota(s) de R\$ 5,00
+			1 nota(s) de R\$ 2,00
+			1 nota(s) de R\$ 1,00\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidas4}
+	\end{table}
+	
+	\subsection{5 - Consumo médio de automóvel}
+	
+	Desafio
+	Você deve calcular o consumo médio de um automóvel onde será informada a distância total percorrida (em Km) e o total de combustível consumido (em litros).
+	
+	Entrada
+	Você receberá dois valores: um valor inteiro X com a distância total percorrida (em Km), e um valor real Y que representa o total de combustível consumido, com um dígito após o ponto decimal.
+	
+	Saída
+	Exiba o valor que representa o consumo médio do automóvel (3 casas após a vírgula), incluindo no final a mensagem "km/l".
+	
+	\begin{table}[!htpb]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Exemplos de Entrada & Exemplos de Saída \\
+			\hline
+			500
+			35.0 & 14.286 km/l\\
+			\hline
+			2254
+			124.4 & 18.119 km/l\\
+			\hline
+			4554
+			464.6 & 9.802 km/l\\
+			\hline
+		\end{tabular}
+		\caption{Exemplos de entradas e saídas.}
+		\label{tab:valEntradasSaidas5}
+	\end{table}
+	
 	\section{Recriando o jogo da cobrinha com JavaScript}
 	
 	Já pensou em criar seu próprio jogo do zero? Aprenda a desenvolver de forma simples o clássico jogo da cobrinha utilizando HTML, CSS e JavaScript.
@@ -1380,6 +1749,19 @@
 	\subsubsection{Parte 2}
 	
 	\subsubsection{Parte 3}
+	
+	Para ver o \textit{Key Code}:
+	\textcolor{blue}{https://keycode.info/}
+	
+	\textbf{Escopo}\footnote{https://imasters.com.br/desenvolvimento/escopos-em-javascript}:
+	\begin{itemize}
+		\item Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código. É uma caixa e tudo que for criado nessa caixa pode ser acessado por qualquer objeto dentro da mesma;
+		\item Um escopo é criado sempre que definimos uma função, chamado de \textit{function scope}. Sempre que iniciamos nosso código, o JavaScript cria um escopo global, uma caixa maior para que possamos colocar todas as demais caixas dentro;
+		\item Quando criamos uma função dentro de outra função, estamos colocando outra caixa dentro do escopo da função, criando \textit{nested scopes}, ou escopos aninhados
+		\item Todo o escopo é fechado para acessos externos, de forma que escopos superiores não conseguem acessar escopos internos, mas o contrário é permitido;
+		\item Quando criamos uma variável usando \textit{var}, ela só fica disponível dentro do escopo de função. Isso permite criar variáveis que são privadas ou públicas.
+		\item Todo o tipo de bloco cria um novo escopo, e por bloco queremos dizer qualquer estrutura que utilize chaves (estruturas de controle), como if, for, while e outras, por exemplo, são chamados de \textit{block scopes};
+	\end{itemize}
 	
 	\subsubsection{Parte 4}
 	
